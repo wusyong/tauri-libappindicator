@@ -1,0 +1,19 @@
+[package]
+name = "tauri-libappindicator"
+version = "0.1.1"
+description = "Rust safe bindings for libappindicator"
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+keywords = ["linux", "gui", "gtk"]
+
+[lib]
+name = "libappindicator"
+
+[dependencies]
+log= "0.4.8"
+glib= "0.14"
+gtk= "0.14"
+gtk-sys= "0.14"
+tauri-libappindicator-sys = { version = "0.1.1", path = "sys/" }
+
