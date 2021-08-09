@@ -1,10 +1,9 @@
 [package]
 name = "tauri-libappindicator"
-version = "0.1.1"
+version = "0.1.2"
 description = "Rust safe bindings for libappindicator"
 edition = "2018"
 license = "MIT"
-readme = "README.md"
 keywords = ["linux", "gui", "gtk"]
 
 [lib]
